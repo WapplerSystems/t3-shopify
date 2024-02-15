@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "WS\\WsT3Shopify\\": "Classes"
+            "WapplerSystems\\WsT3Shopify\\": "Classes"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WS\\WsT3Shopify\\Tests\\": "Tests"
+            "WapplerSystems\\WsT3Shopify\\Tests\\": "Tests"
         }
     },
     "replace": {

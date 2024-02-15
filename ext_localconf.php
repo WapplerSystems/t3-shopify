@@ -6,10 +6,10 @@ defined('TYPO3') || die();
         'WsT3Shopify',
         'T3shopifyfrontend',
         [
-            
+            \WapplerSystems\FilecollectionGallery\Controller\GalleryController::class => 'list',
         ],
         [
-            
+
         ],
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
     );
