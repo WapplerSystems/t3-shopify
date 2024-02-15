@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:ws_t3_shopify/Resources/Private/Language/locallang.xlf" date="2024-02-15T15:16:46Z" product-name="ws_t3_shopify">
+		<header/>
+		<body>
+			<trans-unit id="tx_wst3shopify_domain_model_" resname="tx_wst3shopify_domain_model_">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_wst3shopify_domain_model_.description" resname="tx_wst3shopify_domain_model_.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

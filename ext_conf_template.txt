@@ -1,0 +1,6 @@
+# cat=Shopify Authentication; type=string; label=Shopify URL: Please format it in the form exampleshop.myshopify.com
+shopifyURL =
+# cat=Shopify Authentication; type=string; label=Redirect path: The path to redirect to after the user has been authenticated
+shopifyRP = auth/callback
+# cat=Shopify Authentication; type=string; label=is online: true if the session is online and false otherwise
+shopifyIsOnline = false

@@ -1,0 +1,131 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    -6235.304963307146,
+                    -3457.4125639854874
+                ]
+            },
+            "name": "",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": false,
+                    "_default2_show": false,
+                    "_default3_new_create": false,
+                    "_default4_edit_update": false,
+                    "_default5_delete": false,
+                    "customActions": []
+                },
+                "name": "",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "f5eb5cf2-e420-4176-8496-0b36e0fc9b39"
+                },
+                "propertyGroup": {
+                    "properties": []
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "TYPO3 Shopify connector",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": true,
+            "generateEditorConfig": true,
+            "generateEmptyGitRepository": true,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "12.4",
+            "version": "0.0.1"
+        },
+        "extensionKey": "ws_t3_shopify",
+        "name": "t3-shopify",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": ""
+                },
+                "description": "",
+                "key": "t3shopifyfrontend",
+                "name": "t3 Shopify frontend"
+            }
+        ],
+        "vendorName": "WS"
+    },
+    "wires": [],
+    "nodes": [
+        {
+            "id": "dndnode_0",
+            "type": "customModel",
+            "position": {
+                "x": -6235.304963307146,
+                "y": -3457.4125639854874
+            },
+            "data": {
+                "label": "",
+                "objectType": "",
+                "isAggregateRoot": false,
+                "enableSorting": false,
+                "addDeletedField": true,
+                "addHiddenField": true,
+                "addStarttimeEndtimeFields": true,
+                "enableCategorization": false,
+                "description": "",
+                "mapToExistingTable": "",
+                "extendExistingModelClass": "",
+                "actions": {
+                    "actionIndex": false,
+                    "actionList": false,
+                    "actionShow": false,
+                    "actionNewCreate": false,
+                    "actionEditUpdate": false,
+                    "actionDelete": false
+                },
+                "customActions": [],
+                "properties": [],
+                "relations": []
+            },
+            "dragHandle": ".drag-handle",
+            "draggable": true,
+            "width": 300,
+            "height": 257,
+            "selected": true,
+            "positionAbsolute": {
+                "x": -6235.304963307146,
+                "y": -3457.4125639854874
+            },
+            "dragging": false
+        }
+    ],
+    "edges": [],
+    "storagePath": "\/var\/www\/html\/packages\/",
+    "log": {
+        "last_modified": "2024-02-15 03:16",
+        "extension_builder_version": "dev-typo3-12-reactjs",
+        "be_user": " (1)"
+    }
+}

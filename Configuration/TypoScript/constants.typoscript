@@ -1,0 +1,14 @@
+plugin.tx_wst3shopify_t3shopifyfrontend {
+    view {
+        # cat=plugin.tx_wst3shopify_t3shopifyfrontend/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:ws_t3_shopify/Resources/Private/Templates/
+        # cat=plugin.tx_wst3shopify_t3shopifyfrontend/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:ws_t3_shopify/Resources/Private/Partials/
+        # cat=plugin.tx_wst3shopify_t3shopifyfrontend/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:ws_t3_shopify/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_wst3shopify_t3shopifyfrontend//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
